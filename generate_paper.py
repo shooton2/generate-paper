@@ -1,7 +1,7 @@
 import app
 from openai import OpenAI
 from docx import Document
-client = OpenAI(api_key="sk-uibaSqnGRtJXAIybs1q5zUp2TrnBdiLo7gUdE1tbuKQYFrce",base_url="https://api.chatanywhere.tech/v1")
+client = OpenAI(api_key="",base_url="")
 
 
 ###用户输入关键词，通过与用户之间交互，生成一篇论文
