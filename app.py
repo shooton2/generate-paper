@@ -20,11 +20,11 @@ import datetime
 import pandas as pd
 from evaluate import load
 from datasets import load_metric
-os.environ["OPENAI_API_KEY"] = "sk-uibaSqnGRtJXAIybs1q5zUp2TrnBdiLo7gUdE1tbuKQYFrce"
+os.environ["OPENAI_API_KEY"] = ""
 
 # Set openai credentials
 openai.api_key = os.environ.get("OPENAI_API_KEY")
-openai.base_url = "https://api.chatanywhere.tech/v1"
+openai.base_url = ""
 S2_API_KEY = os.getenv('S2_API_KEY')
 
 # Function to set the OpenAI API key
