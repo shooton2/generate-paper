@@ -131,7 +131,7 @@ def ge_doc():
     doc.add_heading(text=his[5])
     text = final_paper
     doc.add_paragraph(text=text)
-    doc.save("./output/paper.docx")
+    doc.save("./paper.docx")
     print("文档已保存成功！")
 
 ge_doc()
